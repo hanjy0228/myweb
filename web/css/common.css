@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 1170px;
+    height: 100%;
+    margin:0 auto;
+}
