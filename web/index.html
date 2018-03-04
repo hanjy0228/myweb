@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    
+
     <div id="container">
         <div class="wrapper">
                 <div id="imgs">
@@ -90,6 +90,7 @@
                 nowIndex = $(this).index();
                 changeImg();
             });
+
             $("#arrows div").on("click", function(){
                 if($(this).attr("id") == "left"){
                     nowIndex--;
@@ -102,6 +103,7 @@
                         nowIndex = 0;
                     }
                 }
+                
                 changeImg();
             });
 
